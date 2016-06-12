@@ -1,0 +1,15 @@
+	Assignment 8
+    把之前Lab做的紀酸激加入網路連線功能,新增一個輸入IP的頁面,用一個
+java檔作為serverandroid在計算完之後將結果寄給server顯示在螢幕上
+
+遇到的問題:
+    1.加入<uses-permission android:name= "android.permission.INTERNET"/>
+時出現tag start is not closed的警告訊息
+    2.警告訊息E/dalvikvm: Could not find class 'android.os.PersistableBundle'
+
+解決方法:
+    這2個問題google後都說是android的bug,重開IDE或清除快取都試過了,但都沒有效果
+
+心得:
+    Android在排版方面是藉由XML檔來處理,有預覽效果,非常有趣,不過android studio的
+問題非常多,在編寫的時候遇到都要花相當多的時間解決
